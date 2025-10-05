@@ -1,0 +1,2802 @@
+[
+	{
+		"id": 1,
+		"name": "Site 1",
+		"region": "US-West",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Site 2",
+		"region": "US-West",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Site 3",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Site 4",
+		"region": "US-East",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Site 5",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Site 6",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Site 7",
+		"region": "US-South",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Site 8",
+		"region": "US-Central",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Site 9",
+		"region": "US-West",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Site 10",
+		"region": "US-East",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"name": "Site 11",
+		"region": "US-Central",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Site 12",
+		"region": "US-West",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 13,
+		"name": "Site 13",
+		"region": "US-Central",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 14,
+		"name": "Site 14",
+		"region": "US-West",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 15,
+		"name": "Site 15",
+		"region": "US-Central",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 16,
+		"name": "Site 16",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 17,
+		"name": "Site 17",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 18,
+		"name": "Site 18",
+		"region": "US-Central",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 19,
+		"name": "Site 19",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 20,
+		"name": "Site 20",
+		"region": "US-South",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 21,
+		"name": "Site 21",
+		"region": "US-East",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 22,
+		"name": "Site 22",
+		"region": "US-Central",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 23,
+		"name": "Site 23",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 24,
+		"name": "Site 24",
+		"region": "US-East",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 25,
+		"name": "Site 25",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 26,
+		"name": "Site 26",
+		"region": "US-East",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 27,
+		"name": "Site 27",
+		"region": "US-South",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 28,
+		"name": "Site 28",
+		"region": "US-South",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 29,
+		"name": "Site 29",
+		"region": "US-Central",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 30,
+		"name": "Site 30",
+		"region": "US-South",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 31,
+		"name": "Site 31",
+		"region": "US-South",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 32,
+		"name": "Site 32",
+		"region": "US-Central",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 33,
+		"name": "Site 33",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 34,
+		"name": "Site 34",
+		"region": "US-East",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 35,
+		"name": "Site 35",
+		"region": "US-East",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 36,
+		"name": "Site 36",
+		"region": "US-East",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 37,
+		"name": "Site 37",
+		"region": "US-Central",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 38,
+		"name": "Site 38",
+		"region": "US-West",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 39,
+		"name": "Site 39",
+		"region": "US-East",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 40,
+		"name": "Site 40",
+		"region": "US-West",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 41,
+		"name": "Site 41",
+		"region": "US-East",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 42,
+		"name": "Site 42",
+		"region": "US-East",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 43,
+		"name": "Site 43",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 44,
+		"name": "Site 44",
+		"region": "US-South",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 45,
+		"name": "Site 45",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 46,
+		"name": "Site 46",
+		"region": "US-Central",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 47,
+		"name": "Site 47",
+		"region": "US-Central",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 48,
+		"name": "Site 48",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 49,
+		"name": "Site 49",
+		"region": "US-West",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 50,
+		"name": "Site 50",
+		"region": "US-West",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 51,
+		"name": "Site 51",
+		"region": "US-East",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 52,
+		"name": "Site 52",
+		"region": "US-South",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 53,
+		"name": "Site 53",
+		"region": "US-South",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 54,
+		"name": "Site 54",
+		"region": "US-East",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 55,
+		"name": "Site 55",
+		"region": "US-East",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 56,
+		"name": "Site 56",
+		"region": "US-East",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 57,
+		"name": "Site 57",
+		"region": "US-West",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 58,
+		"name": "Site 58",
+		"region": "US-East",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 59,
+		"name": "Site 59",
+		"region": "US-Central",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 60,
+		"name": "Site 60",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 61,
+		"name": "Site 61",
+		"region": "US-East",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 62,
+		"name": "Site 62",
+		"region": "US-West",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 63,
+		"name": "Site 63",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 64,
+		"name": "Site 64",
+		"region": "US-South",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 65,
+		"name": "Site 65",
+		"region": "US-South",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 66,
+		"name": "Site 66",
+		"region": "US-South",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 67,
+		"name": "Site 67",
+		"region": "US-East",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 68,
+		"name": "Site 68",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 69,
+		"name": "Site 69",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 70,
+		"name": "Site 70",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 71,
+		"name": "Site 71",
+		"region": "US-West",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 72,
+		"name": "Site 72",
+		"region": "US-East",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 73,
+		"name": "Site 73",
+		"region": "US-West",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 74,
+		"name": "Site 74",
+		"region": "US-East",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 75,
+		"name": "Site 75",
+		"region": "US-South",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 76,
+		"name": "Site 76",
+		"region": "US-West",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 77,
+		"name": "Site 77",
+		"region": "US-Central",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 78,
+		"name": "Site 78",
+		"region": "US-South",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 79,
+		"name": "Site 79",
+		"region": "US-West",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 80,
+		"name": "Site 80",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 81,
+		"name": "Site 81",
+		"region": "US-Central",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 82,
+		"name": "Site 82",
+		"region": "US-South",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 83,
+		"name": "Site 83",
+		"region": "US-East",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 84,
+		"name": "Site 84",
+		"region": "US-East",
+		"group": "Finance",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "release",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 85,
+		"name": "Site 85",
+		"region": "US-South",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 86,
+		"name": "Site 86",
+		"region": "US-South",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 87,
+		"name": "Site 87",
+		"region": "US-West",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "hotfix",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 88,
+		"name": "Site 88",
+		"region": "US-South",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 89,
+		"name": "Site 89",
+		"region": "US-South",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "main",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 90,
+		"name": "Site 90",
+		"region": "US-Central",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deploying"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 91,
+		"name": "Site 91",
+		"region": "US-East",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 92,
+		"name": "Site 92",
+		"region": "US-Central",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 93,
+		"name": "Site 93",
+		"region": "US-South",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 94,
+		"name": "Site 94",
+		"region": "US-East",
+		"group": "Logistics",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "feature-A",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 95,
+		"name": "Site 95",
+		"region": "US-Central",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Deploying"
+			}
+		]
+	},
+	{
+		"id": 96,
+		"name": "Site 96",
+		"region": "US-Central",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "hotfix",
+				"status": "Deploying"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Idle"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Deploying"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 97,
+		"name": "Site 97",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "feature-A",
+				"status": "Deployed"
+			},
+			{
+				"name": "Worker",
+				"branch": "main",
+				"status": "Deployed"
+			}
+		]
+	},
+	{
+		"id": 98,
+		"name": "Site 98",
+		"region": "US-Central",
+		"group": "Retail",
+		"services": [
+			{
+				"name": "API",
+				"branch": "main",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "main",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Error"
+			}
+		]
+	},
+	{
+		"id": 99,
+		"name": "Site 99",
+		"region": "US-Central",
+		"group": "Healthcare",
+		"services": [
+			{
+				"name": "API",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "Frontend",
+				"branch": "develop",
+				"status": "Deployed"
+			},
+			{
+				"name": "DB",
+				"branch": "develop",
+				"status": "Idle"
+			},
+			{
+				"name": "Worker",
+				"branch": "develop",
+				"status": "Idle"
+			}
+		]
+	},
+	{
+		"id": 100,
+		"name": "Site 100",
+		"region": "US-South",
+		"group": "Manufacturing",
+		"services": [
+			{
+				"name": "API",
+				"branch": "release",
+				"status": "Idle"
+			},
+			{
+				"name": "Frontend",
+				"branch": "feature-A",
+				"status": "Error"
+			},
+			{
+				"name": "DB",
+				"branch": "release",
+				"status": "Error"
+			},
+			{
+				"name": "Worker",
+				"branch": "hotfix",
+				"status": "Deployed"
+			}
+		]
+	}
+]
