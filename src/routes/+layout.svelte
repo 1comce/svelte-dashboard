@@ -17,7 +17,6 @@
 	let drawerHidden = $state(false);
 	let links = $derived(generateBreadcrumbs(page.url.pathname));
 </script>
-
 <header
 	class="fixed top-0 z-40 mx-auto w-full flex-none border-b border-gray-200 bg-white dark:border-gray-600 dark:bg-gray-800"
 >
@@ -26,7 +25,7 @@
 <div class="overflow-hidden lg:flex">
 	<Sidebar bind:drawerHidden {docsRoute} />
 	<div
-		class="relative h-full w-full overflow-y-auto pt-[70px] lg:ml-64 bg-white dark:bg-gray-800 dark:text-white"
+		class="relative h-screen w-full overflow-y-auto pt-[70px] lg:ml-64 bg-white dark:bg-gray-800 dark:text-white"
 	>
 		<BreadCrumb {links} />
 		{@render children()}

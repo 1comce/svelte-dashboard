@@ -3,6 +3,7 @@
 	import MetaTag from '../utils/MetaTag.svelte';
 	import Sites from '../data/sites.json'
 	import Table from './Table.svelte';
+	import Tools from './Tools.svelte'
 	let openUser: boolean = $state(false); // modal control
 	let openDelete: boolean = $state(false); // modal control
 	let selected: Set<string> = $state(new Set()); // store user ids
@@ -17,6 +18,7 @@
 <MetaTag {path} {description} {title} {subtitle} />
 <main class="relative h-full w-full overflow-y-auto bg-white dark:bg-gray-800">
 	<h1>Deploy Page</h1>
+	<Tools/>
 	<div class="p-4">
 		<Table bind:selected {Sites} />
 		{console.log('parent updated', selected)}
